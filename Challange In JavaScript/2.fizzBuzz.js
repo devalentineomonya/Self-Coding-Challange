@@ -1,7 +1,7 @@
 function fizzbazz() {
     for (var i = 0; i <= 100; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
-            console.log("fizz bazz");
+            console.log("fizz buzz");
         } else if (i % 3 === 0) {
             console.log("fizz");
         } else if (i % 5 === 0) {
@@ -9,7 +9,7 @@ function fizzbazz() {
         } else {
             console.log(i);
         }
-
     }
-} 
+}
+
 fizzbazz()
